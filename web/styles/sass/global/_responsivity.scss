@@ -1,0 +1,48 @@
+@media (min-width: 720px) and (max-width: 1399px) {
+  #jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+
+    & > *+* {
+      margin: 0 0;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 100%;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .bg-image-wrapper {
+    background-image: url('../../images/bg-header-desktop.svg');
+  }
+
+  .job-card {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .content-div {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+  }
+
+  .company-primary-info {
+    gap: 1rem;
+  }
+
+  .company-logo {
+    width: 88px;
+    height: 88px;
+    margin-top: 0;
+  }
+}

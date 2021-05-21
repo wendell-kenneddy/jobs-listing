@@ -1,0 +1,87 @@
+.company-logo {
+  margin-top: -2.2rem;
+}
+
+.job-info-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.company-primary-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.company-name {
+  color: var(--primary-cyan);
+  font-weight: 700;
+}
+
+.job-marker {
+  border: none;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  text-align: center;
+  color: #fff;
+}
+
+.job-marker-new {
+  background: var(--primary-cyan);
+}
+
+.job-marker-featured {
+  background: #000;
+}
+
+.job-position-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  p {
+    font-weight: 700;
+    transition: .3s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      color: var(--primary-cyan);
+    }
+  }
+}
+
+.job-contract-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  color: var(--dark-grayish-cyan);
+}
+
+.job-tags {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+}
+
+.job-tag {
+  background: var(--light-grayish-cyan-filter);
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--primary-cyan);
+  transition: .3s ease-in-out;
+
+  &:hover {
+    background: var(--primary-cyan);
+    color: #fff;
+    cursor: pointer;
+  }
+}
